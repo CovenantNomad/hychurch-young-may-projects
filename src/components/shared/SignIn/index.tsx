@@ -9,7 +9,7 @@ const SignInClientComponent = () => {
     await supabase.auth.signInWithOAuth({ 
       provider: 'kakao',
       options: {
-        redirectTo: 'https://hychurch-young-may-projects.vercel.app/auth/callback'
+        redirectTo: process.env.NEXT_PUBLIC_REDIRECT_URL
       }
      })
   }
