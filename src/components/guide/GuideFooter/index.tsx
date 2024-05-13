@@ -29,7 +29,10 @@ const GuideFooter = ({}: GuideFooterProps) => {
           <strong className="inline-block px-1 py-0.5 bg-primary text-accent">주의</strong>
           {" "}업로드한 사진은 변경이 안됩니다
         </span>
-        <span className="block text-[16px] font-medium leading-[160%] tracking-[-0.04em] text-black xl:text-[20px]">사진 업로드시 로딩이 조금 걸리니 여유있게 기다려주세요 ^^</span>
+        <span className="block text-[16px] font-medium leading-[160%] tracking-[-0.04em] text-black mt-4 xl:text-[20px]">
+          사진 업로드시 <br/>
+          로딩이 조금 걸리니 여유있게 기다려주세요
+        </span>
       </div>
       <div className="flex flex-col items-center pt-[60px]">
         <span className="inline-block text-[16px] font-medium leading-[160%] tracking-[-0.04em] bg-primary text-accent xl:text-[20px]">[ 미션완수 가정에게는 소정의 선물을 드립니다 ]</span>
