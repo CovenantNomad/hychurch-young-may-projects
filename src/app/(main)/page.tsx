@@ -17,7 +17,7 @@ export default function Home() {
           <Header />
           <Label />
           <PlayBox />
-          <ResultBox />
+          {/* <ResultBox /> */}
         </InnerWrapper>
       </section>
       <section className="py-[100px] xl:py-[100px] bg-beige">

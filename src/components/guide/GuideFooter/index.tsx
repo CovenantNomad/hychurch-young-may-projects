@@ -29,7 +29,7 @@ const GuideFooter = ({}: GuideFooterProps) => {
           <strong className="inline-block px-1 py-0.5 bg-primary text-accent">주의</strong>
           {" "}업로드한 사진은 변경이 안됩니다
         </span>
-        <span className="block text-[16px] font-medium leading-[160%] tracking-[-0.04em] text-black mt-4 xl:text-[20px]">
+        <span className="block text-[16px] font-medium leading-[160%] tracking-[-0.04em] text-black mt-4 text-center xl:text-[20px]">
           사진 업로드시 <br/>
           로딩이 조금 걸리니 여유있게 기다려주세요
         </span>
